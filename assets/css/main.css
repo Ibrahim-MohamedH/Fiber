@@ -1,0 +1,187 @@
+/* 
+font-family: 'Inter', sans-serif; 
+- Purple: #4d13d1
+- Peige: #fbf8f3
+- Gray: #4f4f4f
+- hover green: #247695
+*/
+.scrolled,
+.opened {
+  background-color: #fbf8f3;
+}
+main header .container nav .navbar-brand {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main header .container nav ul li a {
+  color: black;
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s;
+}
+main header .container nav ul li a:hover {
+  color: #247695;
+}
+main header .container nav ul li a.btn-in {
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+main header .container nav ul li a.btn-in:hover {
+  color: #247695;
+}
+main header .container nav ul li a.btn-up {
+  background-color: #4d13d1;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+main header .container nav ul li a.btn-up:hover {
+  background-color: #247695;
+}
+
+/* ##### Section 1 ##### */
+main .section-1 {
+  padding-top: 100px;
+  background-color: #fbf8f3;
+}
+main .section-1 .container .row .sec-1-text {
+  padding-top: 90px;
+}
+main .section-1 .container .row .rate span {
+  color: #4f4f4f;
+  font-weight: 500;
+}
+main .section-1 .container .row .col-12 h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+main .section-1 .container .row .col-12 p {
+  font-family: "Inter", sans-serif;
+  color: #4f4f4f;
+  font-weight: 500;
+}
+main .section-1 .container .row .col-12 .btn1 {
+  background-color: #4d13d1;
+  color: white;
+  transition: all 0.3s;
+}
+main .section-1 .container .row .col-12 .btn1:hover {
+  background-color: #247695;
+}
+main .section-1 .container .row .col-12 .btn2 {
+  color: #4d13d1;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+main .section-1 .container .row .col-12 .btn2:hover {
+  color: #247695;
+}
+/* ##### Section 2 ##### */
+main .section-2 {
+  background-color: white;
+}
+main .section-2 .container .col-lg-6 p {
+  color: #4d13d1;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .section-2 .container .col-lg-6 h2 {
+  font-weight: bold;
+}
+main .section-2 .container .mini-cards h4 {
+  font-weight: bold;
+}
+main .section-2 .container .mini-cards p {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #4f4f4f;
+}
+/* ##### Section 3 ##### */
+main .section-3 {
+  background-color: white;
+}
+main .section-3 .container {
+  background-color: #4d13d1;
+  border-radius: 10px;
+}
+main .section-3 .container .row h3 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .section-3 .container .row p {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+main .section-3 .container .row a.btn {
+  color: #4d13d1;
+  background-color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  padding: 12px 16px;
+}
+main .section-3 .container .row a.btn:hover {
+  background-color: #247695;
+  color: white;
+}
+
+/* ##### Section 4 ##### */
+main .section-4 .container .item {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 285px;
+}
+main .section-4 .container .item h6 {
+  color: #4d13d1;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+main .section-4 .container .item h6:hover {
+  color: #247695;
+}
+main .section-4 .container .item p {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #4f4f4f;
+}
+main .section-4 .container .item .item-body p {
+  color: black;
+}
+main .section-4 .container .item .item-body .btn {
+  color: #4d13d1;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  border: 1px solid grey;
+  background-color: white;
+  transition: all 0.3s;
+}
+main .section-4 .container .item .item-body .btn:hover {
+  color: white;
+  background-color: #4d13d1;
+}
+/* ##### Footer ##### */
+footer {
+  background-color: #fbf8f3;
+}
+footer h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+footer ul li:hover {
+  color: #247695;
+}

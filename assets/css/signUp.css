@@ -1,0 +1,69 @@
+main .row > div.col-lg-6 {
+  min-height: 100vh;
+}
+main .row .container p.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+main .row .container h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+main .row .container form label:not(.check) {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+main .row .container form label a {
+  font-weight: bold;
+  color: #4d13d1;
+  text-decoration: underline;
+}
+main .row .container form input {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+main .row .container form button {
+  background-color: #4d13d1;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+main .row .container form p.text-center a {
+  color: #4d13d1;
+  text-decoration: none;
+}
+main .row .sign-crsl {
+  background-color: #4d13d1;
+  position: relative;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.carousel-caption {
+  border-radius: 20px;
+  bottom: 40px;
+}
+.carousel-caption h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 20px;
+}
+.none {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .carousel-caption {
+    border-radius: 20px;
+    bottom: 60px;
+  }
+}
