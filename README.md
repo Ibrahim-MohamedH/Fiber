@@ -36,6 +36,7 @@ Users should be able to:
 - Mobile view:
 
 ![](./assets/images/screenshot/mobile_screenshot.png)
+
 ![](./assets/images/screenshot/mobile_signUp_screenshot.png)
 
 ### Links
